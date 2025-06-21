@@ -10,7 +10,7 @@ application = Flask(__name__)
 app=application
 
 model = pickle.load(open("model/modelForPrediction.pkl", "rb"))
-scaler = pickle.load(open("model/modelstandardScaler.pkl", "rb"))
+scaler = pickle.load(open("model/standardScaler.pkl", "rb"))
 
 ## Route for homepage
 
